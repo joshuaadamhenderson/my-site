@@ -1,8 +1,107 @@
 * {
-	margin: 0 auto;
+	margin: auto 0;
+	font-family: Calibri;
 }
 
 a {
 	text-decoration: none;
 	color: inherit;
+}
+
+body {
+	margin: 12%;
+	background-color: #111111;
+	color: #333333;
+}
+
+ul {
+	list-style: none;
+}
+
+#firstName {
+	text-indent: none;
+	color: white;
+	font-size: 2.5em;
+	font-weight: bold;
+	line-height: .4em;
+	font-family: Garamond;
+}
+
+#lastName {
+	text-indent: none;
+	color: white;
+	font-size: 3.5em;
+	font-weight: bold;
+	font-family: Garamond;
+}
+
+.subtext {
+	color: #e09873;
+	letter-spacing: 2px;
+}
+
+#content {
+}
+
+#container1 {
+	border: solid 1px #222222;
+	padding: 60px 30px;
+}
+
+#container2 {
+	margin-top: -22px;
+	margin-left: 20px;
+	background-color: #222222;
+	padding: 15px;
+	width: 50%;
+}
+
+#imageBox {
+	float: right;
+	margin-top: -40px;
+	margin-right: 100px;
+	border: solid 1px #e09873;
+	padding: 15px;
+}
+
+#credBox1 {
+	float: left;
+	width: 40%;
+}
+
+#credBox2 {
+	float: right;
+	width: 60%;
+}
+
+#cred {
+	width: 50%;
+}
+
+#cred p {
+	padding: 40px;
+}
+
+#navBar {
+	float: right;
+	margin-top: -150px;
+}
+
+#navBar ul {
+	display: block;
+}
+
+#navBar ul li {
+	float: right;
+	margin-left: 5px;
+}
+
+#navBar a {
+	display: block;
+	color: white;
+	padding: 15px 60px;
+}
+
+#navBar a:hover {
+	color: #e09873;
 }
