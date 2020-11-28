@@ -8,10 +8,14 @@ a {
 	color: inherit;
 }
 
+html {
+	overflow-y: scroll;
+}
+
 body {
 	margin: 12%;
 	background-color: #111111;
-	color: #333333;
+	color: #444444;
 }
 
 ul {
@@ -59,7 +63,6 @@ ul {
 #imageBox {
 	float: right;
 	margin-top: -40px;
-	margin-right: 100px;
 	border: solid 1px #e09873;
 	padding: 15px;
 }
