@@ -16,49 +16,87 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Joshua Henderson</title>
-	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 
-<body>
-	<div id="content">
-		<div id="navBar">
-			<ul>
-				<li><a href="contact.html">CONTACT</a></li>
-				<li><a href="projects.html">PROJECTS</a></li>
-				<li><a href="index.html">HOME</a></li>
+<body style="background-color: #222222">
+	<div id="content" class="container-xl">
+		<!--
+		Navigation Bar
+		------------------------------------------------------------------------------->
+		<div id="navbar" class="navbar navbar-expand-sm navbar-dark justify-content-center pt-5">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">HOME</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="projects.html">PROJECTS</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">CONTACT</a>
+				</li>
 			</ul>
 		</div>
-		<div id="imageBox">
-			<img src="josh.jpg" width="300" height="300" />
-		</div>
-		<div id="nameCont">
-			<p id="firstName">JOSHUA</p>
-			<p id="lastName">&nbsp;&nbsp;&nbsp;HENDERSON</p>
-		</div>
-
-		<div id="titleCont">
-			<p class="subtext">WEB DEVELOPER &nbsp;&nbsp; | &nbsp;&nbsp; PROGRAMMER &nbsp;&nbsp; | &nbsp;&nbsp; DESIGNER</p>
-		</div>
-		<br>
-		<br>
-		<div id="cred">
-			<div id="credBoxColLeft">
-				<ul>
-					<li>BIRTHDATE</li>
-					<li>HOMETOWN</li>
-				</ul>
+		
+		<!--
+		Jumbotron
+		------------------------------------------------------------------------------->		
+		<div id="title" class="container-sm">
+			<div class="row">
+			
+				<div class="col-lg-8">
+					<div class="row pt-5" id="firstName">
+						JOSHUA
+					</div>
+					<div class="row" id="lastName">
+						&nbsp;&nbsp;HENDERSON
+					</div>
+					<div class="row">
+						<img src="title.png" alt="Job Titles" class="img-fluid" />
+					</div>
+				</div>
+				
+				<div class="col-lg-4 pt-3">
+					<img id="portrait" src="josh.jpg" class="img-fluid mx-auto d-block" />
+				</div>
+			
 			</div>
-			<div id="credBoxColRight">
-				<ul>
-					<li>FEBRUARY 22 1983</li>
-					<li>LAKE CHARLES LOUISIANA</li>
-				</ul>
+		</div>
+		
+		<!--
+		Information
+		------------------------------------------------------------------------------->		
+		<br/>
+		<div class="container-sm">
+			<div class="row">
+				<div class="col-sm-2">
+					<strong>BIRTHDATE</strong>
+				</div>
+				<div class="col-sm-2">
+				</div>
+				<div class="col-sm-4">
+					FEBRUARY 22 1983
+				</div>
 			</div>
-			<br>
-			<br>
-			<p>Graduate of McNeese State University's class of 2019. Seeking a career in programming industries abroad. Self-directed, persistent, and provides clear communication. Contact me to see how I can improve your business.		</div> 
+			<div class="row">
+				<div class="col-sm-2">
+					<strong>LOCATION</strong>
+				</div>
+				<div class="col-sm-2">
+				</div>
+				<div class="col-sm-4">
+					LAKE CHARLES LOUISIANA
+				</div>
+			</div>
+			<br/>
+			<p>Graduate of McNeese State University's class of 2019.
+			Seeking a career in programming industries abroad.
+			Self-directed, persistent, and provides clear communication.
+			Contact me to see how I can improve your business.
+			</p>
+		</div>
 	</div>
 </body>
 </html>

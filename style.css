@@ -1,152 +1,39 @@
-* {
-	margin: auto 0;
-	font-family: Calibri;
-}
 
-a {
-	text-decoration: none;
-	color: inherit;
-}
-
-html {
-	overflow-y: scroll;
+#content {
+	background-color: #222222;
+	color: #888888;
 }
 
 body {
-	margin: 12%;
-	background-color: #111111;
-	color: #444444;
+	background-color: #222222;
 }
 
-ul {
-	list-style: none;
-}
-
-.subtext {
-	color: #e09873;
-	letter-spacing: 2px;
-}
-
-.projectBox {
-	width: 50%;
-	float: left;
-	margin-top: 10px;
-	margin-left: 20px;
-	border-top: 1px solid #222222;
-	padding-top: 10px;
-}
-
-.projectBox img {
-	border-right: 10px solid #e09873;
-	padding-right: 10px;
-	float: left;
-}
-
-.projectLink {
-	margin-left: 120px;
-}
-
-.projectLink a {
+#title {
+	font-family: Garamond, serif;
 	color: white;
-	font-size: 1.3em;
-	font-weight: bold;
-	letter-spacing: 2px;
-}
-
-.projectLink a:hover {
-	color: #e09873;
 }
 
 #firstName {
-	text-indent: none;
-	color: white;
 	font-size: 2.5em;
-	font-weight: bold;
-	line-height: .4em;
-	font-family: Garamond;
 }
 
 #lastName {
-	text-indent: none;
-	color: white;
-	font-size: 3.5em;
-	font-weight: bold;
-	font-family: Garamond;
+	font-size: 4em;
+	margin-top: -25px;
 }
 
-#content {
+#portrait {
+	border: solid 2px #e09873;
+	padding: 10px;
+	text-align: center;
 }
 
-#navBar {
-	float: right;
-	margin-top: -150px;
+#navbar ul li {
+	padding: 10px 40px;
+	text-align: center;
+	letter-spacing: 2px;
 }
 
-#navBar ul {
-	display: block;
-}
-
-#navBar ul li {
-	float: right;
-	margin-left: 5px;
-}
-
-#navBar a {
-	display: block;
-	color: white;
-	padding: 15px 60px;
-}
-
-#navBar a:hover {
-	color: #e09873;
-}
-
-#nameCont {
-	border: solid 1px #222222;
-	padding: 60px 30px;
-}
-
-#titleCont {
-	margin-top: -22px;
-	margin-left: 20px;
-	background-color: #222222;
-	padding: 15px;
-	width: 50%;
-}
-
-#imageBox {
-	float: right;
-	margin-right: 100px;
-	margin-top: -40px;
-	border: solid 1px #e09873;
-	padding: 15px;
-}
-
-#credBoxColLeft {
-	float: left;
-	width: 40%;
-}
-
-#credBoxColRight {
-	float: right;
-	width: 60%;
-}
-
-#cred {
-	width: 50%;
-}
-
-#cred p {
-	padding: 40px;
-}
-
-#contacts {
-	margin-top: 20px;
-}
-
-#contacts a {
-	float: left;
-	font-size: 1.5em;
-	color: white;
-	margin-left: 20px;
+#pixelArea {
+	padding-left: 0px;
 }
