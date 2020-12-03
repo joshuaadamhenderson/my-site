@@ -16,45 +16,82 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Joshua Henderson</title>
-	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 
-<body>
-	<div id="content">
-		<div id="navBar">
-			<ul>
-				<li><a href="contact.html">CONTACT</a></li>
-				<li><a href="projects.html">PROJECTS</a></li>
-				<li><a href="index.html">HOME</a></li>
+<body style="background-color: #222222">
+	<div id="content" class="container-xl">
+		<!--
+		Navigation Bar
+		------------------------------------------------------------------------------->
+		<div id="navbar" class="navbar navbar-expand-sm navbar-dark justify-content-center pt-5">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">HOME</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="projects.html">PROJECTS</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">CONTACT</a>
+				</li>
 			</ul>
 		</div>
-		<div id="imageBox">
-			<img src="josh.jpg" width="300" height="300" />
-		</div>
-		<div id="nameCont">
-			<p id="firstName">JOSHUA</p>
-			<p id="lastName">&nbsp;&nbsp;&nbsp;HENDERSON</p>
-		</div>
-
-		<div id="titleCont">
-			<p class="subtext">WEB DEVELOPER &nbsp;&nbsp; | &nbsp;&nbsp; PROGRAMMER &nbsp;&nbsp; | &nbsp;&nbsp; DESIGNER</p>
-		</div>
-		<br>
-		<br>
-		<div class="projectBox">
-			<img src="book.jpg" alt="Book Icon" width="80px" height="80px" />
-			<div class="projectLink">
-				<a href="http://msubookstore.gearhostpreview.com/" target="_blank" >MCNEESE BOOKSTORE</a>
-				<p>This page is an example of my university's online bookstore, in which elements of PHP were introduced.</p>
+		
+		<!--
+		Jumbotron
+		------------------------------------------------------------------------------->		
+		<div id="title" class="container-sm">
+			<div class="row">
+			
+				<div class="col-sm-8">
+					<div class="row pt-5" id="firstName">
+						JOSHUA
+					</div>
+					<div class="row" id="lastName">
+						&nbsp;&nbsp;HENDERSON
+					</div>
+					<div class="row">
+						<img src="title.png" alt="Job Titles" class="img-fluid" />
+					</div>
+				</div>
+				
+				<div class="col-lg-4 pt-3">
+					<img id="portrait" src="josh.jpg" class="img-fluid mx-auto d-block" />
+				</div>
+			
 			</div>
 		</div>
-		<div class="projectBox">
-			<img src="glass.jpg" alt="Cocktail Glass Icon" width="80px" height="80px" />
-			<div class="projectLink">
-				<a href="http://csci426joshuahenderson.gearhostpreview.com/" target="_blank">ALL ABOUT COCKTAILS</a>
-				<p>My Web Development course required this website to showcase HTML and CSS fundamentals.</p>
+		
+		<!--
+		Information
+		------------------------------------------------------------------------------->		
+		<br/>
+		<div class="container-sm">
+			<div class="row" style="border-top: solid 1px #333333;">
+				
+				<div class="col-lg-1 pt-2" style="text-align: center;">
+					<img class="img-fluid" src="book.jpg" alt="Book Icon" />
+				</div>
+				
+				<div class="col pt-3">
+					<a class="link" href="http://msubookstore.gearhostpreview.com/" target="_blank" >MCNEESE BOOKSTORE</a>
+					<p>This page is an example of my university's online bookstore, in which elements of PHP were introduced.</p>
+				</div>
+				
+			</div>
+			<div class="row" style="border-top: solid 1px #333333;">
+			
+				<div class="col-lg-1 pt-2" style="text-align: center;">
+					<img class="img-fluid" src="glass.jpg" alt="Cocktail Glass Icon" />
+				</div>
+			
+				<div class="col pt-3">
+					<a class="link" href="http://csci426joshuahenderson.gearhostpreview.com/" target="_blank">ALL ABOUT COCKTAILS</a>
+					<p>My Web Development course required this website to showcase HTML and CSS fundamentals.</p>
+				</div>
 			</div>
 		</div>
 	</div>

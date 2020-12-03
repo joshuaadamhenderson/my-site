@@ -16,35 +16,73 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Joshua Henderson</title>
-	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 
-<body>
-	<div id="content">
-		<div id="navBar">
-			<ul>
-				<li><a href="contact.html">CONTACT</a></li>
-				<li><a href="projects.html">PROJECTS</a></li>
-				<li><a href="index.html">HOME</a></li>
+<body style="background-color: #222222">
+	<div id="content" class="container-xl">
+		<!--
+		Navigation Bar
+		------------------------------------------------------------------------------->
+		<div id="navbar" class="navbar navbar-expand-sm navbar-dark justify-content-center pt-5">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">HOME</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="projects.html">PROJECTS</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">CONTACT</a>
+				</li>
 			</ul>
 		</div>
-		<div id="imageBox">
-			<img src="josh.jpg" width="300" height="300" />
+		
+		<!--
+		Jumbotron
+		------------------------------------------------------------------------------->		
+		<div id="title" class="container-sm">
+			<div class="row">
+			
+				<div class="col-sm-8">
+					<div class="row pt-5" id="firstName">
+						JOSHUA
+					</div>
+					<div class="row" id="lastName">
+						&nbsp;&nbsp;HENDERSON
+					</div>
+					<div class="row">
+						<img src="title.png" alt="Job Titles" class="img-fluid" />
+					</div>
+				</div>
+				
+				<div class="col-lg-4 pt-3">
+					<img id="portrait" src="josh.jpg" class="img-fluid mx-auto d-block" />
+				</div>
+			
+			</div>
 		</div>
-		<div id="nameCont">
-			<p id="firstName">JOSHUA</p>
-			<p id="lastName">&nbsp;&nbsp;&nbsp;HENDERSON</p>
-		</div>
-
-		<div id="titleCont">
-			<p class="subtext">WEB DEVELOPER &nbsp;&nbsp; | &nbsp;&nbsp; PROGRAMMER &nbsp;&nbsp; | &nbsp;&nbsp; DESIGNER</p>
-		</div>
-		<div id="contacts">
-			<a href="https://www.linkedin.com/in/josh-henderson-7b715648" target="_blank"><img src="linkedin.png" alt="LinkedIn icon" width="50px" height="50px" /></a>
-			<br>
-			<a href="mailto:joshuaadamhenderson@gmail.com">joshuaadamhenderson@gmail.com</a>
+		
+		<!--
+		Information
+		------------------------------------------------------------------------------->		
+		<br/>
+		<div class="container-sm">
+			<div class="row">
+				
+				<div class="col-sm-1 pt-2" style="text-align: center;">
+					<a href="https://www.linkedin.com/in/josh-henderson-7b715648" target="_blank">
+						<img class="img-fluid" src="linkedin.png" alt="Book Icon" />
+					</a>
+				</div>
+				
+				<div class="col-sm-3 pt-3" style="text-align: center;">
+					<a style="font-size: 140%" class="link" href="mailto:joshuaadamhenderson@gmail" target="_blank" >joshuaadamhenderson@gmail.com</a>
+				</div>
+				
+			</div>
 		</div>
 	</div>
 </body>
