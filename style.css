@@ -13,12 +13,7 @@ body {
 	color: white;
 }
 
-#firstName {
-	font-size: 2.5em;
-}
-
 #lastName {
-	font-size: 4em;
 	margin-top: -25px;
 }
 
