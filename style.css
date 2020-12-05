@@ -90,3 +90,10 @@
 	#pixelArea {
 		padding-left: 0px;
 	}
+	
+	#info h4 {
+		color: #e09873;
+		border-bottom: solid #777777 1px;
+		padding-top: 10px;
+		letter-spacing: 4px;
+	}
